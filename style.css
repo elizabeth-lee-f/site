@@ -102,3 +102,50 @@
 .spanx1 {
     font-weight: bold;
 }
+
+.bgBlock1 {
+    background-color: #000028;
+    width: 1024px;
+    height: 768px;
+    padding-top: 60px;
+}
+
+.blockColumn {
+    background-color: #ff0070;
+}
+
+.column {
+    width: 984px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text1 {
+    width: 314px;
+    height: 47px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #ff0070;
+    /*background-color: aqua;*/
+}
+
+.text2 {
+    width: 648px;
+    height: 244px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000028;
+    /*margin: 0 20px 20px 0;*/
+    /*background-color: aqua;*/
+}
+
+.textColor {
+    color: #FF0070;
+}
+
+
