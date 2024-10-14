@@ -1,3 +1,7 @@
+:root {
+    --font-family: "IBM Plex Mono", sans-serif;
+}
+
 @font-face {
     font-family: 'IBM Plex Mono';
     font-weight: 400;
@@ -12,6 +16,15 @@
 
 * {
     font-family: "IBM Plex Mono", sans-serif;
+}
+
+.bg {
+    background-image: url("./cover-image-dark.png");
+    width: 1024px;
+    height: 768px;
+}
+.padding-20 {
+    padding: 20px;
 }
 
 .navigation {
@@ -48,4 +61,44 @@
 
 .isActiveButton {
     border: 1px solid #FF0070;
+}
+
+.container {
+    width: 984px;
+    position: relative; 
+    /*background-color: #db00ff;*/
+}
+
+.imageRec {
+    position: absolute;
+    /* прижимаем блок к правой границе относительно блока с position: relative*/
+    right: 0;
+    /*background-color: green;*/
+}
+
+.noFocus {
+    font-family: var(--font-family);
+    font-weight: 700;   
+    font-size: 157px;
+    line-height: 83%;
+    color: #db00ff;
+    text-shadow: 4px 4px #ff0070;
+}
+
+.spanx {
+    display: flex;
+    flex-direction: column;
+    width: 491px;
+    height: 71px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000028;
+    background-color: #FF0070;
+    float: right;
+}
+
+.spanx1 {
+    font-weight: bold;
 }
