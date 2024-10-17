@@ -19,6 +19,23 @@
     src: url('./fonts/IBMPlexMono-Regular.ttf');
 }
 
+#body{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #000028;
+}
+
+.bg100{
+   /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3000px;*/
+    width: 100%;
+    background-color: #000028;
+}
+
 * {
     font-family: "IBM Plex Mono", sans-serif;
 }
@@ -198,7 +215,7 @@
 }
 .column2 {
     width: 1024px;
-    height: 600px;
+    height: 510px;
     margin: 0;
 }
 .column3 {
@@ -218,7 +235,7 @@
     font-size: 18px;
     line-height: 130%;
     color: #ff0070;
-    padding: 74px 0 0 16px;
+    padding: 76px 0 0 16px;
     margin: 0;
    /* background-color: aqua;*/
 }
@@ -235,6 +252,84 @@
     /*background-color: aqua;*/
 }
 
+.column4 {
+    width: 1024px;
+    height: 1185px;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+.box4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1115px;
+    width: 1009px;
+    justify-content: start;
+    justify-items: start;
+    padding: 0px 0px 0px 0;
+    margin: 92px 0 0 15px;
+    gap: 20px;
+    column-gap: 0px;
+}
+
+.box4 .text4_1 {
+    align-self: stretch;
+   /* background-color: blue;*/
+    width: 315px;
+    height: 1115px;
+    margin: 0;
+    padding: 0;
+}
+
+.box4 .text4_2 {
+   width: 649px; 
+   margin: 0px 0 0 0;
+   padding: 0;
+   /*background-color: rgb(42, 165, 58); */
+}
+.text_format1{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #ff0070;
+    margin: 0px;
+    padding: 0;
+   /* background-color: aqua;*/
+}
+.text_format2{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000028;
+    background-color: #ff0070;
+    margin: 0px 0 10px 0;
+    padding: 0;
+   /* background-color: aqua;*/
+}
+.text_format3{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #f1b2ce;
+    margin: 0px 0 0 0;
+    padding: 0px 0 0 0;
+    /*background-color: aqua;*/
+}
+.text_format4{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000028;
+    background-color: #ff0070;
+    margin: 0px;
+    padding: 0;
+   /* background-color: aqua;*/
+}
 .backgroundColor {
     background-color: #000028;
 }
