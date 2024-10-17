@@ -247,7 +247,7 @@
     font-size: 18px;
     line-height: 130%;
     color: #000028;
-    margin: 0 0px 0 0;
+    margin: 0;
     padding: 0;
     /*background-color: aqua;*/
 }
@@ -267,10 +267,10 @@
     width: 1009px;
     justify-content: start;
     justify-items: start;
-    padding: 0px 0px 0px 0;
+    padding: 0;
     margin: 92px 0 0 15px;
     gap: 20px;
-    column-gap: 0px;
+    column-gap: 0;
 }
 
 .box4 .text4_1 {
@@ -284,7 +284,7 @@
 
 .box4 .text4_2 {
    width: 649px; 
-   margin: 0px 0 0 0;
+   margin: 0;
    padding: 0;
    /*background-color: rgb(42, 165, 58); */
 }
@@ -294,7 +294,7 @@
     font-size: 18px;
     line-height: 130%;
     color: #ff0070;
-    margin: 0px;
+    margin: 0;
     padding: 0;
    /* background-color: aqua;*/
 }
@@ -305,7 +305,7 @@
     line-height: 130%;
     color: #000028;
     background-color: #ff0070;
-    margin: 0px 0 10px 0;
+    margin: 0 0 10px 0;
     padding: 0;
    /* background-color: aqua;*/
 }
@@ -315,8 +315,8 @@
     font-size: 18px;
     line-height: 130%;
     color: #f1b2ce;
-    margin: 0px 0 0 0;
-    padding: 0px 0 0 0;
+    margin: 0;
+    padding: 0;
     /*background-color: aqua;*/
 }
 .text_format4{
@@ -326,7 +326,7 @@
     line-height: 130%;
     color: #000028;
     background-color: #ff0070;
-    margin: 0px;
+    margin: 0;
     padding: 0;
    /* background-color: aqua;*/
 }
@@ -334,4 +334,56 @@
     background-color: #000028;
 }
 
+.section5text {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000028;
+}
 
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 315px);
+    grid-template-rows: 260px 315px 428px;
+    row-gap: 20px;
+    column-gap: 20px;
+    /*height: 315px;*/
+    padding-top: 20px;
+}
+
+.gridElement {
+    /*padding: 20px;*/
+}
+
+.column5 {
+    width: 984px;
+    height: 1185px;
+    margin: 0 0 11px 19px;
+}
+
+.pic1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+}
+
+.pic2 {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 2;
+}
+
+.pic3 {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+}
+
+.pic4 {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.pic5 {
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 3;
+margin-top: 5px;
+}
